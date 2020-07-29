@@ -7,7 +7,7 @@ class Rope {
             bodyA: pointA,
             bodyB: pointB,
             pointB: {x: this.offsetX, y: this.offsetY},
-            stiffness: 0,
+            stiffness: 0.01,
             length: 350
         }
 
